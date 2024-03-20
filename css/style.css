@@ -1,9 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
     margin: 0;
     height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 .header,
@@ -62,7 +69,7 @@ body {
     align-items: flex-start;
     padding: 2em;
     flex-basis: 40%;
-    gap: 1em;
+    gap: 2em;
 }
 
 .hero-right {

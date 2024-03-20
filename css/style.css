@@ -4,7 +4,6 @@ body {
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
     margin: 0;
-    height: 100vh;
 }
 
 *,
@@ -108,4 +107,32 @@ button {
 
 button.hero-button {
     border: none;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 52px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 48px 0;
+}
+
+.info-item {
+    width: 200px;
+}
+
+.info-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }

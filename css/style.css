@@ -54,6 +54,11 @@ body {
     color: #E5E7EB;
 }
 
+.header-links a:hover,
+.footer a:hover {
+    color: #ffffff;
+}
+
 .hero {
     display: flex;
     flex: 1;
@@ -107,6 +112,10 @@ button {
     background: #3882F6;
 }
 
+button:hover {
+    background: #5895f8 ;
+}
+
 button.hero-button {
     border: none;
 }
@@ -139,6 +148,7 @@ button.hero-button {
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    margin-bottom: 1em;
 }
 
 .quote {
@@ -215,3 +225,4 @@ button.action-button {
     flex-shrink: 0;
     border: 2px solid white;
 }
+

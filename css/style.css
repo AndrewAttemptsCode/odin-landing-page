@@ -58,8 +58,8 @@ body {
     display: flex;
     flex: 1;
     justify-content: center;
-    padding-top: 24px;
-    padding-bottom: 48px;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 
 .hero-left {
@@ -84,7 +84,8 @@ body {
     color: #F9FAF8;
 }
 
-.hero-text {
+.hero-text,
+.action-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -116,9 +117,10 @@ button.hero-button {
 
 .info-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 52px;
-    margin-bottom: 52px;
+    margin-bottom: 72px;
 }
 
 .info-title {
@@ -147,10 +149,23 @@ button.hero-button {
     padding: 72px 0;
 }
 
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.quote-text,
+.quote-author {
+    width: 100%;
+    max-width: 900px;
+    margin: 10px;
+}
+
 .quote-text {
     display: flex;
     justify-content: flex-start;
-    width: 900px;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
@@ -160,8 +175,43 @@ button.hero-button {
 .quote-author {
     display: flex;
     justify-content: flex-end;
-    width: 900px;
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px;
+    width: 900px;
+    max-width: 100%;
+    gap: 20px;
+    border-radius: 8px;
+    background: #3882F6;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.action-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button.action-button {
+    flex-shrink: 0;
+    border: 2px solid white;
 }
